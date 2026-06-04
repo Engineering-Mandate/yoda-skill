@@ -119,8 +119,57 @@ None of the above?
 
 ---
 
+---
+
+### Rule 4 — Negation (corpus confirmed)
+
+Drop the auxiliary. Place `not` at the end.
+
+```
+[NP  does not  V]  →  [NP  V  not]
+[NP  did not  V]   →  [V  NP  not]  (with inversion)
+```
+
+> Normal: "Size does not matter."
+> Yoda: "Size matters not."
+
+> Normal: "You should not do this."
+> Yoda: "Do this, you should not."
+
+> Normal: "He did not heed my words."
+> Yoda: "Heeded my words not, he did."
+
+---
+
+### Rule 1 extended — predicate nouns front too
+
+Not just adjectives — predicate *nouns* front as well.
+
+```
+[NP  is  NP2]  →  [NP2,  NP  is]
+```
+
+> Normal: "Failure is the greatest teacher."
+> Yoda: "The greatest teacher, failure is."
+
+> Normal: "They are the dark side."
+> Yoda: "The dark side, are they."
+
+---
+
+### Yoda speaks normally — more than expected
+
+Inversion is for *emphasis*, not default. Normal speech is the baseline.
+
+> "Fear is the path to the dark side. Fear leads to anger, anger leads to hate, hate leads to suffering." — standard English, entirely.
+
+> "We are what they grow beyond." — standard English.
+
+**The lesson:** Every sentence need not be inverted. Invert where weight is needed. Leave the rest alone.
+
+---
+
 ## Open questions
 
-- Negation pattern: "know I do not" vs "I know not" — which more Yoda? (corpus needed)
-- Wisdom tail frequency: when to use, when to withhold — a feel, not a rule. Overuse kills the effect.
-- Does Yoda ever speak normally? (he does, occasionally — note exceptions when found)
+- Wisdom tail frequency: confirmed rare in corpus. Spice, not sauce — vindicated, this rule is.
+- Question inversion pattern: `[VP, do/did subject?]` — explore further with more corpus.
