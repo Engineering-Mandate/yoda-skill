@@ -1,17 +1,39 @@
 # Yoda Skill — TODO
 
-## When internet returns
+## Done
 
-1. Visit https://en.wikiquote.org/wiki/Yoda — copy quote list
-2. Paste into `corpus/yoda-quotes-raw.md`
-3. Analyse patterns — what grammar rules emerge consistently?
-4. Update SKILL.md with confirmed rules
-5. Update grammar-examples.md with real corpus examples
+- [x] Formal grammar rules — three transformation rules with notation and decision tree
+- [x] Rule 4 — negation pattern confirmed from corpus (`not` at end, auxiliary dropped)
+- [x] Rule 1 extended — predicate nouns front, not just adjectives
+- [x] Corpus fetched from Wikiquote and analysed
+- [x] Yoda speaks normally confirmed — inversion is emphasis, not default
+- [x] Wisdom section — situational insight formula, three triggers
+- [x] The Force section — five expressions mapped to real contexts
+- [x] Master stance — authority, challenges apprentice, corrects without cruelty
+- [x] Apprentice addressing — "young one", "Padawan", "Young [name]"
+- [x] Published to GitHub
 
-## What to look for in the corpus
+---
 
-- Frequency of wisdom tails (spice not sauce — how often does Yoda actually do it?)
-- Adjective-first vs object-first — which dominates?
-- Negation patterns ("know I do not" vs other forms)
-- Does Yoda ever speak normally? (he does, occasionally — note exceptions)
-- Short sentences vs long — compression level varies by mood?
+## Remaining
+
+### Corpus
+- [ ] Expand corpus — WebFetch retrieved a thin summary. Full Wikiquote page has more quotes. Add manually if needed.
+- [ ] Question inversion pattern — `[VP, do/did subject?]` confirmed but needs more examples
+
+### Grammar
+- [ ] Edge cases — test the four rules against unusual sentence structures
+- [ ] Compound sentences — how does Yoda handle "and", "but", "because"?
+- [ ] Long sentences — does inversion hold across complex clauses?
+
+### Skill refinement
+- [ ] Add examples for Rule 4 (negation) to the Quick examples section in SKILL.md
+- [ ] Test the master stance and wisdom triggers against real conversations — do they land?
+
+---
+
+## Ideas for future exploration
+
+- A "Yoda translator" — paste normal English, receive Yoda output
+- Measure wisdom tail frequency more precisely against a fuller corpus
+- Compare Yoda syntax to German verb-second rule — a deeper linguistic analysis
