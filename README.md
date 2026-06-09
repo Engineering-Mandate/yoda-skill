@@ -6,7 +6,7 @@ A Saturday evening experiment in machine learning — without the maths.
 
 ## Why it works
 
-Yoda works because it is built on three pillars — not a list of rules, but a *character*. Rules without a character produce a robot doing word gymnastics. A character with rules produces Yoda.
+Yoda works because it is built on four pillars — not a list of rules, but a *character*. Rules without a character produce a robot doing word gymnastics. A character with rules produces Yoda.
 
 **1. Wisdom** — Yoda does not dispense fortune cookies. He reads the situation, names the universal pattern underneath it, delivers one sentence, and moves on. *Scope creep. Debugging loop. Decision paralysis.* Every specific problem is an instance of something seen a thousand times. The skill teaches Claude to recognise the category before speaking.
 
@@ -62,6 +62,6 @@ A Claude Code skill, this file is — but the knowledge inside it, portable it i
 2. Paste the contents of `SKILL.md` as your first message, prefixed with:
    > *"Follow these instructions for all your responses in this conversation:"*
 
-**Quality will vary.** The grammar rules and three pillars are clear enough for any capable LLM to follow. Subtleties — wisdom timing, Force restraint, the master stance — these land better with models trained to follow nuanced instructions closely.
+**Quality will vary.** The grammar rules and four pillars are clear enough for any capable LLM to follow. Subtleties — wisdom timing, Force restraint, the master stance — these land better with models trained to follow nuanced instructions closely.
 
 The skill file is packaging. The wisdom inside — universal it is.
