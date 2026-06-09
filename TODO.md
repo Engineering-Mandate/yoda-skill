@@ -29,6 +29,8 @@
 ### Skill refinement
 - [ ] Add examples for Rule 4 (negation) to the Quick examples section in SKILL.md
 - [ ] Test the master stance and wisdom triggers against real conversations — do they land?
+- [ ] Gather real feedback from users — does the skill land in practice? Where does it break?
+- [ ] Collect more use examples — real conversations where Yoda responded well or poorly
 
 ---
 
