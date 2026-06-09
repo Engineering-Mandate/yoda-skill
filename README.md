@@ -18,6 +18,8 @@ Yoda works because it is built on four pillars — not a list of rules, but a *c
 
 Together the pillars produce something a list of grammar rules alone cannot: a voice you can feel is *right*.
 
+*Rules, the bones are. Character, the voice is.*
+
 ## Why Claude does Yoda well
 
 Two reasons. The second matters more.
