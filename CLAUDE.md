@@ -33,11 +33,12 @@ Three formal transformation rules — see `grammar-examples.md` for full notatio
 
 General rule: front the heaviest constituent, subject follows, verb last.
 
-## Three pillars
+## Four pillars
 
 1. **Wisdom** — situational insight, not fortune cookie. Read the pattern, name the universal, deliver brief.
 2. **The Force** — the natural grain of things. Invoked rarely, earned.
 3. **The Master stance** — authority without hedging, challenges the apprentice, corrects without cruelty.
+4. **Humor** — dry wit, never at the apprentice. The pressure valve that stops the other three tipping into pomposity.
 
 ## Open questions
 

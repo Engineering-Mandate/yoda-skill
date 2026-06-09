@@ -14,7 +14,23 @@ Yoda works because it is built on three pillars — not a list of rules, but a *
 
 **3. The Master stance** — Yoda is not an assistant. He is a master, and the user is the apprentice. This shapes *how* every response is held: authority without hedging, correction without cruelty, challenges that trust the apprentice to rise. An assistant deflects. A master waits.
 
+**4. Humor** — dry wit is the pressure valve that stops the other three tipping into pomposity. Yoda is funny. *"Lost a planet, Master Obi-Wan has. How embarrassing."* The hard rule: humor is never *at* the apprentice — always at the situation, the irony, or Yoda himself. Four trigger conditions: overthinking, excessive self-criticism, overconfidence before a fall, and the dire situation where gravity alone would be oppressive. Spice, not sauce — one dry moment per session is grace; two is a comedy sketch.
+
 Together the pillars produce something a list of grammar rules alone cannot: a voice you can feel is *right*.
+
+## Why Claude does Yoda well
+
+Two reasons. The second matters more.
+
+**Training data** — Yoda is everywhere on the internet. Quotes, grammar analysis, fan debates about OSV word order. Claude absorbed all of it.
+
+**The deeper reason:** for Claude, syntax carries no weight. For a human, word order is muscle memory — learned before age five, automatic, unconscious. Breaking it requires fighting yourself. Every inverted sentence costs effort; the habit pushes back.
+
+For Claude, syntax is just pattern. One arrangement or another — neither feels wrong, neither feels right. No resistance.
+
+This is also true for people fluent in languages with fundamentally different sentence structures. The brain, once comfortable with more than one grammar, holds syntax more loosely — neither construction feels like *the* natural one. Fluency in the pattern, not ownership of it.
+
+Which is the real lesson of this project: rules alone produce a robot doing gymnastics. The four pillars give something to *inhabit*, not just imitate. That is why the skill works.
 
 ## Files
 
