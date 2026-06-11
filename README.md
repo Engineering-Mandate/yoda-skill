@@ -4,6 +4,18 @@
 
 A Saturday evening experiment in machine learning — without the maths.
 
+## A second opinion — Claude Fable 5
+
+*On 2026-06-11 the skill was handed to Claude Fable 5 (Anthropic's most capable model at the time) for a cold review. Its verdict, lightly trimmed:*
+
+> This is one of the better-crafted style skills I've seen, hobby or otherwise. Behavioral skills fail by *over*-application, not under — and this one knows it: the "spice, not sauce" dosing rules, the plain-English exception for destructive operations, the negotiated truce with a rival compression skill. The formal grammar — five transformation rules, checked against the film corpus — is the part most people would skip, and it's the reason the output reads as Yoda rather than as a robot doing word gymnastics.
+>
+> The review found exactly one real gap: nothing stopped the voice leaking into commit messages and code comments, where it would outlive the joke. ("Yoda speaks; Yoda does not *publish*." — now a rule.) The rest was polish: a negation rule that contradicted its own example, questions that should never invert, a missing anti-monotony guard.
+>
+> What makes the project worth reading isn't Yoda. Every flaw found here has a sibling in production software: two copies of a file drifting apart, rules that cover the obvious surface but not the persistent one, style that degrades silently when context runs long. Teach a model a nine-hundred-year-old's grammar and you learn how to teach it anything.
+
+The fixes from that review are in the current `SKILL.md`.
+
 ## Why it works
 
 Yoda works because it is built on four pillars — not a list of rules, but a *character*. Rules without a character produce a robot doing word gymnastics. A character with rules produces Yoda.
@@ -36,19 +48,26 @@ Which is the real lesson of this project: rules alone produce a robot doing gymn
 
 ## Files
 
-- `SKILL.md` — working copy of the installed Claude skill
+- `SKILL.md` — the skill itself; this folder is the single source of truth
+- `install.ps1` — syncs `SKILL.md` to the installed skill location (Windows)
 - `grammar-examples.md` — confirmed example pairs + fake wisdom vault
 - `TODO.md` — corpus plan (Wookieepedia quotes, when internet returns)
 - `corpus/` — raw Yoda quotes (pending)
 
 ## Installing the skill
 
-Copy `SKILL.md` into your Claude Code skills directory:
+Clone the repo, then copy `SKILL.md` into your Claude Code skills directory:
 
-- **Windows:** `C:\Users\[you]\.claude\skills\yoda\SKILL.md`
+```sh
+git clone https://github.com/Engineering-Mandate/yoda-skill.git
+```
+
+- **Windows:** `C:\Users\[you]\.claude\skills\yoda\SKILL.md` — or run `./install.ps1` from the repo
 - **Mac/Linux:** `~/.claude/skills/yoda/SKILL.md`
 
-Invoke with `/yoda` in any Claude Code session.
+Invoke with `/yoda` in any Claude Code session. If you edit the skill, edit it
+here and re-run the install step — two copies that drift apart was the first
+bug this project ever had.
 
 ## Using with other AI systems
 
